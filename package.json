@@ -1,0 +1,26 @@
+{
+  "author": "syncstream-devops",
+  "dependencies": {
+
+  },
+  "description": "JSON Serialization Library for SyncStream Solutions",
+  "devDependencies": {
+    "@types/node": "^18.7.16",
+    "typescript": "^4.8.3"
+  },
+  "files": ["dst/**/*"],
+  "keywords": [],
+  "license": "MIT",
+  "main": "dst/index.js",
+  "name": "syncstream-serializer-json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sync-stream/node-serializer-json.git"
+  },
+  "scripts": {
+    "pack": "npm pack",
+    "prepublish": "tsc"
+  },
+  "types": "dst/index.d.ts",
+  "version": "1.0.0"
+}
