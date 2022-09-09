@@ -49,6 +49,9 @@ jobs:
           ## Define our registry URL
           registry-url: 'https://npm.pkg.github.com'
 
+          ## Define the scope of our package
+          scope: '@sync-stream'
+
       ## Clean-install the project
       - run: 'npm ci'
 
